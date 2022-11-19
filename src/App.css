@@ -1,0 +1,43 @@
+.formOuterStyle {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 35%;
+  padding: 10px;
+  border: 2px solid;
+}
+.form-group {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 25px;
+}
+button {
+  background-color: navy;
+  color: antiquewhite;
+  border: none;
+  padding: 8px 12px;
+}
+button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.itemStyle {
+  list-style-type: none;
+  width: 25%;
+  border: 2px solid;
+  background-color: azure;
+  padding: 10px;
+  margin-top: 5px;
+}
+.deleteBtn {
+  background-color: green;
+  margin-left: 10px;
+}
+.editBtn {
+  background-color: red;
+  margin-left: 10px;
+}
